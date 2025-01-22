@@ -1,0 +1,51 @@
+
+"
+# macOS関連
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Trash-*
+
+# Xcode関連
+build/
+DerivedData/
+*.xcworkspace
+*.xccheckout
+*.xcscmblueprint
+xcuserdata/
+*.xcodeproj/*
+.gitignore.xcodeproj/project.pbxproj
+.gitignore.xcodeproj/xcshareddata
+
+# Swift Package Manager関連
+.build/
+.swiftpm/xcode/xcuserdata
+
+# CocoaPods関連
+Pods/
+
+# Carthage関連
+Carthage/Build/
+
+# Fastlane関連
+fastlane/report.xml
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Playgrounds関連
+timeline.xctimeline
+playground.xcworkspace
+
+# その他
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Vimやエディタの一時ファイル
+*.swp
+
+# 一時ファイルやバックアップファイル
+*.moved-aside
+
