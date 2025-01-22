@@ -1,31 +1,26 @@
-
-"
 # macOS関連
 .DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Trash-*
 
 # Xcode関連
 build/
 DerivedData/
 *.xcworkspace
+xcuserdata/
 *.xccheckout
 *.xcscmblueprint
-xcuserdata/
-*.xcodeproj/*
-.gitignore.xcodeproj/project.pbxproj
-.gitignore.xcodeproj/xcshareddata
 
-# Swift Package Manager関連
+# プロジェクト構成情報（共有設定は除外しない）
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+
+# Swift Package Manager (SPM)
 .build/
 .swiftpm/xcode/xcuserdata
 
-# CocoaPods関連
-Pods/
+# CocoaPods
+# Pods/  # 必要に応じてコメント解除
 
-# Carthage関連
+# Carthage
 Carthage/Build/
 
 # Fastlane関連
@@ -43,9 +38,9 @@ playground.xcworkspace
 *.dSYM.zip
 *.dSYM
 
-# Vimやエディタの一時ファイル
-*.swp
-
 # 一時ファイルやバックアップファイル
+*.swp
 *.moved-aside
+
+# 特定の環境で生成される一時ファイルを追加（例: tmpディレクトリ）
 
